@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum inside</title>
+</head>
+<body>
+    <script>
+     let num1=parseFloat(prompt("enter the number"));
+let num2=parseFloat(prompt("enter the divider"));
+document.write(`Number 1 = ${num1} <br>`);
+document.write(`Number 1 = ${num2} <br>`);
+let operator=(num1,num2)=>{
+  let ans=num1+num2
+  document.write(`operation : ${num1} + ${num2} <br>`);
+  return ans
+}
+
+let divide=(a,b,ans)=>{
+  document.write(`Answer = ${ans(a,b)}`);
+}
+
+divide(num1,num2,operator)
+    </script>
+</body>
+</html>
